@@ -3,12 +3,16 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:background="@android:color/background_dark">
 
     <ImageView
-        android:id="@+id/ivProfile"
+        android:id="@+id/ivProfileImage"
         android:layout_width="50dp"
         android:layout_height="50dp"
+        android:background="@android:color/background_dark"
+        android:contentDescription="@string/this_is_a_profile_image"
         tools:srcCompat="@tools:sample/avatars" />
 
     <TextView
@@ -18,7 +22,8 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="5dp"
         android:layout_marginTop="0dp"
-        android:layout_toEndOf="@+id/ivProfile"
+        android:layout_toEndOf="@+id/ivProfileImage"
+        android:textColor="@android:color/primary_text_dark"
         tools:text="XiUsernameiX" />
 
     <TextView
@@ -28,6 +33,7 @@
         android:layout_below="@+id/tvScreenName"
         android:layout_marginStart="5dp"
         android:layout_marginTop="2dp"
-        android:layout_toEndOf="@+id/ivProfile"
+        android:layout_toEndOf="@+id/ivProfileImage"
+        android:textColor="@android:color/secondary_text_dark"
         tools:text="Place holder text for a tweet body. This is filler text. More filler text, maybe without typos." />
 </RelativeLayout>
