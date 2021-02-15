@@ -33,7 +33,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://puu.sh/HgRJI/b546f1f24a.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://github.com/ChazHanda/TwitterClient/blob/master/Preview.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [ShareX](https://getsharex.com/).
 
