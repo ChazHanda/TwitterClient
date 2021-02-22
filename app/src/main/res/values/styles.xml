@@ -5,6 +5,7 @@
             Theme customizations available in newer API levels can go in
             res/values-vXX/styles.xml, while customizations related to
             backward-compatibility can go here.
+
         -->
     </style>
 
@@ -13,4 +14,10 @@
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
     </style>
 
+    <style name="Theme.App.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorControlNormal">#2296F3</item>
+        <item name="colorControlActivated">#4DC351</item>
+        <item name="colorControlHighlight">#FFC107</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
 </resources>
